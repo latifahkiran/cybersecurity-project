@@ -1,5 +1,3 @@
-# file: todo.py
-
 def tampilkan_menu():
     print("\n=== TO-DO LIST ===")
     print("1. Tambah tugas")
