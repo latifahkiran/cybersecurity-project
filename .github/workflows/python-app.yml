@@ -18,6 +18,10 @@ jobs:
       with:
         python-version: "3.x"
 
-    - name: Run Python Program
+    - name: Install pytest
       run: |
-        python todo.py
+        pip install pytest
+
+    - name: Run unit tests
+      run: |
+        pytest
