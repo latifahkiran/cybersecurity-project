@@ -1,7 +1,9 @@
-tasks = ["Belajar GitHub Actions", "Membuat Workflow", "Coba To-Do List"]
+# todo.py
 
-print("Daftar To-Do Hari Ini:")
-for i, task in enumerate(tasks, start=1):
-    print(f"{i}. {task}")
+tasks = []
 
-print("\n✅ Program berhasil dijalankan tanpa error!")
+def add_task(task):
+    tasks.append(task)
+
+def get_tasks():
+    return tasks
